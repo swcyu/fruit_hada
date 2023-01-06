@@ -4,7 +4,7 @@ import json
 from datetime import datetime
 import os
 
-date = datetime.today().strftime("%Y%m%d")
+date = datetime.today().strftime("%Y%m")
 
 # 레시피 관련 모든 크롤링 raw data 불러오기
 with open(f'crawling_result/{date}/{date}_bbcgoodfood_all.json', 'r', encoding='utf-8-sig') as file:
